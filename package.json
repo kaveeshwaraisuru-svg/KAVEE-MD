@@ -1,0 +1,19 @@
+{
+  "name": "kavee-ai-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "AI WhatsApp Chat Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pino": "^9.6.0"
+  }
+}
